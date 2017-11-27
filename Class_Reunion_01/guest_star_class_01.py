@@ -27,7 +27,7 @@ with open('id_to_name.csv', 'r') as csvfile:
     for row in reader:
         id_to_name[row[0]] = row[1]
         guest_names.append(row[1])
-        guest_ids.append(row[0])
+        guest_ids.append(int(row[0]))
 
 movies = {}
 with open('Movie_Data.csv', 'r') as csvfile:
@@ -45,6 +45,7 @@ with open('Guest_Star_Data.csv', 'r') as csvfile:
 movie_id_lookup_dict = {}
 for id_num in movies:
     movie_id_lookup_dict[id_num] = Movie(movies[id_num]['movie'], id_num, movies[id_num]['guest_names'], movies[id_num]['guest_ids'], movies[id_num]['count'])
+    
 star_id_lookup_dict = {}
 for id_num in stars:
     star_id_lookup_dict[id_num] = Guest_Star(stars[id_num]['name'], id_num, stars[id_num]['movies'], stars[id_num]['movie_ids'])
