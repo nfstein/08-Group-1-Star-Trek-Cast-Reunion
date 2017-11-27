@@ -2,7 +2,7 @@ I'm writing a little script to practice making API calls for a programming class
 
 I can also share the code for anyone who's interested.
 
-So far I've programmed it to find out which movies have the most TOS guest stars in them: Spartacus, and The Greatest Story Ever Told each have 6 (and there are more with fewer). And to find out which guest stars have starred with the most other guest stars and spit out pseudo edit-ready text for them:
+So far I've programmed it to find out which movies have the most TOS guest stars in them: Spartacus, and The Greatest Story Ever Told each have 6 (and there are more with 5 and fewer). And to find out which guest stars have starred with the most other guest stars and spit out pseudo edit-ready text for them:
 
 http://memory-alpha.wikia.com/wiki/John_Crawford?veaction=edit
 John Crawford worked with fellow Star Trek guest star Michael Ansara in 3 different movies: The Greatest Story Ever Told, Serpent of the Nile, and Slaves of Babylon.
