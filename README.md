@@ -1,20 +1,8 @@
-# 08-Group-1-Star-Trek-Cast-Reunion
+# you can time.sleep(.3) when you're dead
+## pull data without querying TMDb! no internet, no rate limits
 
-# Star Trek Cast Reunion
+## use star_trek_tos_data.py as a module
+yields all data about each guest star cast member and movie they've been involved in. Yields 5 dictionaries: guest_movies {TMDb_id_num: TMDb_data} it's really big and might not actually be that practical; guest_stars; main_cast_movies; main_cast_stars ; star_trek_tos has all TMDb data about the show (star_trek_tos['airdate'] etc) and each episode (star_trek_tos[season_num][episode_num]: TMDb_data)
 
-## Team Members
-Nick Steinhauser, Armando Diaz, David Jones, Erdem Balikci
-
-## Project Description
-Searches The Movie DB for guest stars on Star Trek and finds other media they have appeared in. Find the one movie or top ten movies that have the most Star Trek guest actors appearing in them.
-
-## Data Sets to be Used
-https://developers.themoviedb.org/3
-We will use the above api to generate actor lists and then to search for movies they've appeared in.
-
-## Rough Breakdown of Tasks
-Generate guest actors list.
-Generate movie list for each actor.
-Aggregate movie lists for number of actors.
-Analyze for which movie has the most hits.
-Analyze quality of movies vs guest star appearances.
+## json_data_retrieval.ipynb
+populates the .txt files that star_trek_tos_data.py pulls from. It takes over an hour to run so don't run unless we really need to make changes

@@ -1,0 +1,70 @@
+I'm writing a little script to practice making API calls for a programming class and used TOS credits as my dataset to do analysis upon in python using Pandas and TMDb. This is my first time on the wiki and I would love some recommendations of other bits of analysis to do and also whether or not to post the bits I've included below (feel free to post the bits I've got in whatever format is suitable if you'd like).
+
+I can also share the code for anyone who's interested.
+
+So far I've programmed it to find out which movies have the most TOS guest stars in them: Spartacus, and The Greatest Story Ever Told each have 6 (and there are more with 5 and fewer). And to find out which guest stars have starred with the most other guest stars and spit out pseudo edit-ready text for them:
+
+http://memory-alpha.wikia.com/wiki/John_Crawford?veaction=edit
+John Crawford worked with fellow Star Trek guest star Michael Ansara in 3 different movies: The Greatest Story Ever Told, Serpent of the Nile, and Slaves of Babylon.
+http://memory-alpha.wikia.com/wiki/Whit_Bissell?veaction=edit
+Whit Bissell worked with fellow Star Trek guest star John Hoyt in 4 different movies: Brute Force, Lost Continent, Trial, and Never So Few.
+http://memory-alpha.wikia.com/wiki/Whit_Bissell?veaction=edit
+Whit Bissell also worked with fellow Star Trek guest star Jeff Corey in 4 different movies: Brute Force, Canon City, Red Mountain, and Somewhere in the Night.
+http://memory-alpha.wikia.com/wiki/Whit_Bissell?veaction=edit
+Whit Bissell also worked with fellow Star Trek guest star Roy Jenson in 3 different movies: Soylent Green, 5 Card Stud, and The Caine Mutiny.
+http://memory-alpha.wikia.com/wiki/Whit_Bissell?veaction=edit
+Whit Bissell also worked with fellow Star Trek guest star Anthony Caruso in 3 different movies: Where Love Has Gone, Anna Lucasta, and Boots Malone.
+http://memory-alpha.wikia.com/wiki/Paul_Fix?veaction=edit
+Paul Fix worked with fellow Star Trek guest star William Schallert in 3 different movies: Man in the Shadow, The High and the Mighty, and Top Of The World.
+http://memory-alpha.wikia.com/wiki/Paul_Fix?veaction=edit
+Paul Fix also worked with fellow Star Trek guest star Elisha Cook Jr. in 3 different movies: Two in a Crowd, Pat Garrett & Billy the Kid, and Welcome to Hard Times.
+http://memory-alpha.wikia.com/wiki/William_Schallert?veaction=edit
+William Schallert worked with fellow Star Trek guest star Paul Fix in 3 different movies: Man in the Shadow, The High and the Mighty, and Top Of The World.
+http://memory-alpha.wikia.com/wiki/David_Brian?veaction=edit
+David Brian worked with fellow Star Trek guest star William Campbell in 3 different movies: The High and the Mighty, Breakthrough, and Inside the Walls of Folsom Prison.
+http://memory-alpha.wikia.com/wiki/Michael_Ansara?veaction=edit
+Michael Ansara worked with fellow Star Trek guest star Richard Hale in 4 different movies: Julius Caesar, The Diamond Queen, Soldiers Three, and The Desert Hawk.
+http://memory-alpha.wikia.com/wiki/Michael_Ansara?veaction=edit
+Michael Ansara also worked with fellow Star Trek guest star John Crawford in 3 different movies: The Greatest Story Ever Told, Serpent of the Nile, and Slaves of Babylon.
+http://memory-alpha.wikia.com/wiki/Richard_Hale?veaction=edit
+Richard Hale worked with fellow Star Trek guest star Michael Ansara in 4 different movies: Julius Caesar, The Diamond Queen, Soldiers Three, and The Desert Hawk.
+http://memory-alpha.wikia.com/wiki/John_Hoyt?veaction=edit
+John Hoyt worked with fellow Star Trek guest star Whit Bissell in 4 different movies: Brute Force, Lost Continent, Trial, and Never So Few.
+http://memory-alpha.wikia.com/wiki/John_Hoyt?veaction=edit
+John Hoyt also worked with fellow Star Trek guest star Elisha Cook Jr. in 3 different movies: Baby Face Nelson, The Glass Cage, and Trial.
+http://memory-alpha.wikia.com/wiki/John_Hoyt?veaction=edit
+John Hoyt also worked with fellow Star Trek guest star Anthony Caruso in 3 different movies: Baby Face Nelson, My Favorite Brunette, and Young Dillinger.
+http://memory-alpha.wikia.com/wiki/Jeff_Corey?veaction=edit
+Jeff Corey worked with fellow Star Trek guest star Whit Bissell in 4 different movies: Brute Force, Canon City, Red Mountain, and Somewhere in the Night.
+http://memory-alpha.wikia.com/wiki/Elisha_Cook_Jr.?veaction=edit
+Elisha Cook Jr. worked with fellow Star Trek guest star John Hoyt in 3 different movies: Baby Face Nelson, The Glass Cage, and Trial.
+http://memory-alpha.wikia.com/wiki/Elisha_Cook_Jr.?veaction=edit
+Elisha Cook Jr. also worked with fellow Star Trek guest star Paul Fix in 3 different movies: Two in a Crowd, Pat Garrett & Billy the Kid, and Welcome to Hard Times.
+http://memory-alpha.wikia.com/wiki/Elisha_Cook_Jr.?veaction=edit
+Elisha Cook Jr. also worked with fellow Star Trek guest star Marianna Hill in 3 different movies: Black Zoo, Messiah of Evil, and El Condor.
+http://memory-alpha.wikia.com/wiki/Anthony_Caruso?veaction=edit
+Anthony Caruso worked with fellow Star Trek guest star John Hoyt in 3 different movies: Baby Face Nelson, My Favorite Brunette, and Young Dillinger.
+http://memory-alpha.wikia.com/wiki/Anthony_Caruso?veaction=edit
+Anthony Caruso also worked with fellow Star Trek guest star Whit Bissell in 3 different movies: Where Love Has Gone, Anna Lucasta, and Boots Malone.
+http://memory-alpha.wikia.com/wiki/Perry_Lopez?veaction=edit
+Perry Lopez worked with fellow Star Trek guest star Arthur Batanides in 3 different movies: Man-Trap, Cry Tough, and Violent Road.
+http://memory-alpha.wikia.com/wiki/Perry_Lopez?veaction=edit
+Perry Lopez also worked with fellow Star Trek guest star Abraham Sofaer in 3 different movies: Taras Bulba, Omar Khayyam, and Che!.
+http://memory-alpha.wikia.com/wiki/Arthur_Batanides?veaction=edit
+Arthur Batanides worked with fellow Star Trek guest star Perry Lopez in 3 different movies: Man-Trap, Cry Tough, and Violent Road.
+http://memory-alpha.wikia.com/wiki/Abraham_Sofaer?veaction=edit
+Abraham Sofaer worked with fellow Star Trek guest star Perry Lopez in 3 different movies: Taras Bulba, Omar Khayyam, and Che!.
+http://memory-alpha.wikia.com/wiki/Sid_Haig?veaction=edit
+Sid Haig worked with fellow Star Trek guest star Clint Howard in 4 different movies: Halloween, The Haunted World of El Superbeasto, UnConventional, and The Lords of Salem.
+http://memory-alpha.wikia.com/wiki/Sid_Haig?veaction=edit
+Sid Haig also worked with fellow Star Trek guest star Beverly Washburn in 3 different movies: Spider Baby, Pit Stop, and The Hatching of Spider Baby.
+http://memory-alpha.wikia.com/wiki/Clint_Howard?veaction=edit
+Clint Howard worked with fellow Star Trek guest star Sid Haig in 4 different movies: Halloween, The Haunted World of El Superbeasto, UnConventional, and The Lords of Salem.
+http://memory-alpha.wikia.com/wiki/Roy_Jenson?veaction=edit
+Roy Jenson worked with fellow Star Trek guest star Whit Bissell in 3 different movies: Soylent Green, 5 Card Stud, and The Caine Mutiny.
+http://memory-alpha.wikia.com/wiki/William_Campbell?veaction=edit
+William Campbell worked with fellow Star Trek guest star David Brian in 3 different movies: The High and the Mighty, Breakthrough, and Inside the Walls of Folsom Prison.
+http://memory-alpha.wikia.com/wiki/Beverly_Washburn?veaction=edit
+Beverly Washburn worked with fellow Star Trek guest star Sid Haig in 3 different movies: Spider Baby, Pit Stop, and The Hatching of Spider Baby.
+http://memory-alpha.wikia.com/wiki/Marianna_Hill?veaction=edit
+Marianna Hill worked with fellow Star Trek guest star Elisha Cook Jr. in 3 different movies: Black Zoo, Messiah of Evil, and El Condor.
